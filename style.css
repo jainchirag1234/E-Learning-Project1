@@ -1,0 +1,108 @@
+body {
+    background-image: url('e-learning.jpg'); /* Replace 'your-background-image.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+#form {
+    width: 40%;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(82, 11, 77, 0.5);
+    border-radius: 8px;
+    text-align: center;
+}
+
+#form img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#form h1 {
+    margin-top: 0;
+    background-color: red;
+}
+
+#form form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#form .form-group {
+    margin-bottom: 16px;
+}
+
+#form input {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 2px solid #8a8a8a;
+    border-radius: 4px;
+}
+
+/* .btn {
+    color: white;
+    background-color: rgb(23, 204, 23);
+    padding: 12px 20px;
+    font-size: large;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+} */
+
+#btn:hover {
+    background-color: darkgreen;
+}
+
+@media screen and (max-width: 700px) {
+    #form {
+        width: 80%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #form {
+        width: 90%;
+    }
+}
+
+/* .btn-1 .btn-2{
+    background-color: rgb(29, 163, 118);
+    padding: 100px;
+    font-size: 50px;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.custom-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+.center-container{
+    text-align: center;
+}
+.custom-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
